@@ -1,0 +1,250 @@
+.get-review-container {
+  padding: 3%;
+  width: 100%; /* Allow container to be flexible */
+  max-width: 560px; /* Limit the maximum width */
+  height: auto; /* Adjust height dynamically */
+  background: #F5F5F5;
+  border-radius: 2px;
+  opacity: 0.63;
+  display: flex;
+  flex-direction: column; /* Ensure items stack vertically */
+  gap: 10px; /* Add spacing between elements */
+ 
+}
+
+.input-box {
+  width: 100%; /* Adjust width to be responsive */
+  max-width: 527px; /* Limit max-width */
+  height: 68px; /* Allow height to adjust based on content */
+  min-height: 63px; /* Ensure a minimum height */
+  background: #FFFFFF;
+  border: 1px solid #ccc; /* Add a visible border */
+  border-radius: 3px;
+  opacity: 1;
+  padding: 10px; /* Add padding for text */
+  box-sizing: border-box; /* Include padding and border in dimensions */
+  resize: vertical; /* Allow manual resizing of height */
+}
+
+.rating {
+  display: flex;
+  gap: 8px;
+}
+
+.review-submit-btn {
+  width: 55px;
+  height: 22px;
+  font: normal normal normal 14px/19px Roboto;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  background: #0017c6 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  opacity: 1;
+  margin-left: auto; /* Push the button to the right */
+}
+.sidebar-container{
+  background-color: #ffb400;
+  width: 60px;
+  height: 100px;
+}
+
+.view-book-container {
+  position: relative;
+  width: 1000px;
+  height: 585px;
+  padding: 16px;
+  margin: 8% auto; /* Adjust top margin to add space */
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+}
+
+.book-image-container {
+  border: #555 1px solid;
+  flex: 1;
+  width:300px;
+  height: 440px;
+  
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.action-buttons {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  gap: 35%;
+ 
+  height: 6%;
+}
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Spacing between elements */
+}
+
+.quantity-controls button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Makes the button circular */
+  border: 1px solid #ccc; /* Light border */
+  background-color: #f5f5f5; /* Light background */
+  color: #333; /* Text color */
+  font-size: 18px; /* Font size for +/- */
+  cursor: pointer; /* Pointer cursor on hover */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the +/- */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth effects */
+}
+
+.quantity-controls button:hover {
+  background-color: #ddd; /* Slightly darker on hover */
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.quantity-controls span {
+  width: 40px; /* Square box */
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the quantity text */
+  border: 1px solid #ccc; /* Light border */
+  background-color: #fff; /* White background */
+  color: #333; /* Text color */
+  font-size: 16px; /* Font size for the quantity */
+  font-weight: bold; /* Make the text bold */
+  border-radius: 4px; /* Slightly rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+
+.btn {
+  width: 159px;
+  height: 38px;
+  font-size: 14px;
+  padding: 8px;
+}
+.btn-add-to-bag{
+  width: 100%;
+  color: white;
+  background-color: #A03037;
+}
+.btn-wishlist{
+  width: 100%;
+  color: white;
+  background-color:#333333;
+}
+
+
+.book-details {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  overflow: visible;
+  height: max-content;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: auto;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+.book-detail-first-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  overflow: visible;
+}
+
+.book-detail-first-container #book-name {
+  font-size: 20px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.book-detail-first-container #book-author {
+  font-size: 16px;
+  margin: 0;
+  color: #555;
+}
+
+.book-rating-section {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.rating-details {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: green;
+  color: white;
+  padding: 0.4vh;
+  border-radius: 1vh;
+}
+
+#rating-value {
+  font-weight: bold;
+}
+
+#rating-icon {
+  color: #ffb400;
+  font-size: 18px;
+}
+
+#rating-count {
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.book-price-section {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: -4%;
+  overflow: visible;
+}
+
+#discounted-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0a0102;
+  margin-right: 4px;
+}
+
+#original-price {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: #878787;
+}
+
+#single-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0a0102;
+}
+
+
+.book-image{
+  width: 80%;
+  padding: 5%;
+  padding-top: 10%;
+  padding-left: 10%;
+ 
+}
