@@ -1,2 +1,7 @@
 # Book_Store_FrontEnd
-This project is a web application showcasing React.js proficiency, featuring reusable components, complex state management, and responsive design. It integrates external APIs for data handling, demonstrating adherence to modern web development practices and scalability, as part of the BridgeLab curriculum.
+Building scalable React.js applications with reusable components.
+Managing application state using Redux Toolkit.
+Integrating external APIs and handling asynchronous operations.
+Writing clean and maintainable code using best practices in React and JavaScript.
+Creating responsive and accessible user interfaces.
+
